@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ChevronDown, Mail, Code, Shield, Zap, Users, CheckCircle, ArrowRight, Menu, Sun, Moon } from 'lucide-react';
+import { ChevronDown, Mail, Code, Shield, Zap, Users, CheckCircle, ArrowRight, Menu, Sun, Moon, X } from 'lucide-react';
 import image from './assets/avatar.jpg';
 import { toast } from 'sonner'
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
@@ -261,7 +261,7 @@ const Portfolio = () => {
                             <button
                                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                             >
-                                {isMenuOpen ? <X /> : <Menu />}
+                                {isMenuOpen ? <X className='cursor-pointer' /> : <Menu className='cursor-pointer' />}
                             </button>
                         </div>
                     </div>
