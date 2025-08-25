@@ -180,12 +180,10 @@ const Portfolio = () => {
     ];
 
     const skills = [
-        { name: "Solidity", level: 85, category: "Smart Contracts" },
-        { name: "Hardhat/Foundry", level: 80, category: "Development" },
-        { name: "Web3.js/Ethers.js", level: 90, category: "Integration" },
-        { name: "OpenZeppelin", level: 85, category: "Security" },
-        { name: "React/Next.js", level: 88, category: "Frontend" },
-        { name: "Node.js", level: 82, category: "Backend" }
+        { name: "Solidity", level: 40, category: "Smart Contracts" },
+        { name: "Hardhat/Foundry", level: 40, category: "Development" },
+        { name: "Web3.js/Ethers.js", level: 40, category: "Integration" },
+        { name: "OpenZeppelin", level: 40, category: "Security" },
     ];
 
     const services = [
