@@ -151,31 +151,13 @@ const Portfolio = () => {
 
     const projects = [
         {
-            title: "purple-nft",
-            description: "Built a dapp for minting NFT.",
-            tech: ["Solidity", "OpenZeppelin", "Hardhat", "Ethers.js"],
-            features: ["Minting", "Sending"],
-            github: "https://github.com/Quadr001/purple-nft",
-            demo: "http://purple-nft.vercel.app",
-            status: "Live on Testnet"
-        },
-        {
-            title: "NFT Marketplace Contract",
+            title: "purple-NFT Marketplace Contract",
             description: "Developed a gas-optimized NFT marketplace with royalty distribution and batch minting capabilities.",
             tech: ["Solidity", "ERC-721", "IPFS", "React"],
             features: ["Royalty management", "Batch operations", "Lazy minting", "Upgradeable proxy"],
-            github: "https://github.com",
-            demo: "https://demo.com",
+            github: "https://github.com/Quadr001/purple-nft",
+            demo: "http://purple-nft.vercel.app",
             status: "In Development"
-        },
-        {
-            title: "Multi-Sig Wallet System",
-            description: "Created a secure multi-signature wallet with role-based access and transaction queuing system.",
-            tech: ["Solidity", "Gnosis Safe", "Web3.js", "TypeScript"],
-            features: ["M-of-N signatures", "Role management", "Transaction queuing", "Gas optimization"],
-            github: "https://github.com",
-            demo: "https://demo.com",
-            status: "Audited"
         }
     ];
 
@@ -347,13 +329,12 @@ const Portfolio = () => {
                             <div>
                                 <p className={`text-lg ${textSecondary} mb-6 leading-relaxed`}>
                                 I'm a passionate Web3 developer specializing in smart contract development and DeFi protocols.
-                                    With a strong foundation in Solidity and blockchain architecture, I create secure, gas-efficient
-                                    smart contracts that power the next generation of decentralized applications.
+                                    With a strong foundation in Solidity and blockchain architecture.
+                                    My focus is on writing clean, secure, and highly optimized Solidity code for cutting-edge dApps.
                                 </p>
                                 <p className={`text-lg ${textSecondary} mb-10 leading-relaxed`}>
-                                    My journey in blockchain development has equipped me with deep understanding of consensus mechanisms,
-                                    tokenomics, and security best practices. I'm committed to building trustless systems that
-                                    democratize finance and create new economic opportunities.
+                                    My mission is to democratize finance and unlock new economic opportunities by building secure, trustless systems.
+                                    This work will be grounded in a comprehensive understanding of core blockchain principles, including consensus mechanisms, tokenomics, and industry-leading security practices.
                                 </p>
 
                                 <div className="grid grid-cols-2 gap-8">
