@@ -38,9 +38,9 @@ const Portfolio = () => {
 
     
     
-    const myemail ='mrlite402@gmail.com';
-    const myname ='Bethel Nnadi'
-    const acronym ='BN'
+    const myemail ='awequadr15@gmail.com';
+    const myname ='Awe Abdulquadr'
+    const acronym ='AA'
     
     
     const handleSubmit = (e, preferredMethod = null) => {
