@@ -151,13 +151,13 @@ const Portfolio = () => {
 
     const projects = [
         {
-            title: "DeFi Yield Farming Protocol",
-            description: "Built a smart contract system for automated yield farming with multi-token support and compound rewards.",
+            title: "purple-nft",
+            description: "Built a dapp for minting NFT.",
             tech: ["Solidity", "OpenZeppelin", "Hardhat", "Ethers.js"],
-            features: ["Auto-compounding rewards", "Multi-token staking", "Emergency withdraw", "Time-locked contracts"],
-            github: "https://github.com",
-            demo: "https://demo.com",
-            status: "Live on Mainnet"
+            features: ["Minting", "Sending"],
+            github: "https://github.com/Quadr001/purple-nft",
+            demo: "http://purple-nft.vercel.app",
+            status: "Live on Testnet"
         },
         {
             title: "NFT Marketplace Contract",
